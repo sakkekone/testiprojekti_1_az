@@ -1,0 +1,6 @@
+@testiprojekti_1_HostAddress = http://localhost:5120
+
+GET {{testiprojekti_1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
