@@ -1,8 +1,8 @@
 name: Build and deploy .NET Core application to Web App testiprojekti120240117114433
 on:
-  pull_request:
+  push:
     branches:
-    - dev
+    - master
 env:
   AZURE_WEBAPP_NAME: testiprojekti120240117114433
   AZURE_WEBAPP_PACKAGE_PATH: testiprojekti_1\publish
